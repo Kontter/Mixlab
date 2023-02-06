@@ -1,0 +1,117 @@
+.wild {
+    padding: 58px 0;
+    background-color: #FAF9F6;
+    background-image: url(../images/wild-decor1.png), url(../images/wild-decor2.png);
+    background-repeat: no-repeat;
+    background-position: 0 313px, 100% 452px;
+}
+.wild-title {
+    max-width: 217px;
+    margin: 0 auto 24px auto;
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 400;
+}
+.wild-descr {
+    max-width: 555px;
+    margin: 0 auto 76px auto;
+    text-align: center;
+    font-weight: 500;
+}
+.wild-box {
+    max-width: 800px;
+    margin: 0 auto 49px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.wild-box-left {
+    max-width: 384px;
+    padding-top: 238px;
+    background-image: url(../images/wild-bg1.png);
+    background-repeat: no-repeat;
+}
+.wild-box-wrapper {
+    padding: 36px 36px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-left: 1px solid #E8DCF8;
+    border-bottom: 1px solid #E8DCF8;
+    border-right: 1px solid #E8DCF8;
+}
+.wild-data {
+    margin-bottom: 15px;
+    color: #F7A500;
+}
+.wild-box-title {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 32px;
+}
+.wild-box-descr {
+    margin-bottom: 32px;
+}
+.wild-box-link {
+    margin-top: auto;
+    color: #6F1EAA;
+}
+.wild-box-right {
+    max-width: 384px;
+    padding-top: 238px;
+    background-image: url(../images/wild-bg2.png);
+    background-repeat: no-repeat;
+}
+.wild-btn {
+    display: block;
+    max-width: 160px;
+    margin: 0 auto;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #6F1EAA;
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    transition: .3s;
+}
+.wild-btn:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* ==================================================1050====================================== */
+@media (max-width: 1050px) {
+    .wild {
+        background-image: none;
+    }
+}
+
+
+
+/* ==================================================900====================================== */
+@media (max-width: 900px) {
+    .wild {
+        background-image: none;
+    }
+    .wild-box {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+/* ==================================================500====================================== */
+@media (max-width: 500px) {
+    .wild {
+        padding: 30px 0;
+    }
+    .wild-descr {
+        margin: 0 auto 35px auto;
+    }
+}

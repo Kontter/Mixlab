@@ -1,0 +1,19 @@
+.brands {
+    padding: 40px 0 24px;
+    background: #6F1EAA
+}
+.brands-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+/* ==================================================1000====================================== */
+@media (max-width: 1000px) {
+    .brands-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

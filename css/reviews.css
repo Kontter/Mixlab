@@ -1,0 +1,120 @@
+.reviews {
+    padding: 175px 0;
+    position: relative;
+}
+.reviews-bg-decor {
+    width: 202px;
+    height: 203px;
+    position: absolute;
+    top: 15px;
+    right: 135px;
+    z-index: 10;
+}
+.slider-item {
+    max-width: 1072px;
+    min-height: 354px;
+    padding: 90px 32px 0px 318px;
+    box-sizing: border-box;
+    background: #DFF5F6;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: 40px 50%;
+}
+.si1 {
+    background-image: url(../images/reviews-bg1.png);
+}
+.si2 {
+    padding: 45px 32px 0px 318px;
+    background-image: url(../images/reviews-bg2.png);
+}
+.si3 {
+    background-image: url(../images/reviews-bg3.png);
+}
+.si4 {
+    background-image: url(../images/reviews-bg4.png);
+}
+.si5 {
+    background-image: url(../images/reviews-bg5.png);
+}
+.si6 {
+    background-image: url(../images/reviews-bg6.png);
+}
+.si7 {
+    background-image: url(../images/reviews-bg7.png);
+}
+.reviews-descr {
+    max-width: 722px;
+    margin-bottom: 8px;
+    line-height: 26px;
+}
+.reviews-location {
+    padding-left: 38px;
+    font-size: 20px;
+    line-height: 33px;
+    background-image: url(../images/reviews-location.svg);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-track {
+    display: flex;
+    gap: 80px;
+}
+.slider {
+    position: relative;
+}
+
+
+
+/* ==================================================1100====================================== */
+@media (max-width: 1100px) {
+    .reviews-bg-decor {
+        display: none;
+    }
+    .slick-track {
+        display: flex;
+        gap: 20px;
+    }
+    .slider {
+        padding: 0 20px;
+    }
+}
+
+
+
+
+
+/* ==================================================830====================================== */
+@media (max-width: 830px) {
+    .reviews {
+        padding: 90px 0;
+    }
+}
+
+
+
+/* ==================================================765====================================== */
+@media (max-width: 765px) {
+    .slider-item {
+        background-image: none;
+    }
+    .slider-item {
+        min-height: none;
+        padding: 20px;
+        box-sizing: content-box;
+    }
+    .slick-track {
+        gap: 0px;
+    }
+}
+
+
+
+/* ==================================================500====================================== */
+@media (max-width: 500px) {
+    .reviews {
+        padding: 45px 0;
+    }
+}
